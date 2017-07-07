@@ -1,5 +1,5 @@
 # Description:
-#   MJが叫ぶ
+#   MJがランダムに答える
 #
 # Dependencies:
 #   None
@@ -8,24 +8,16 @@
 #   None
 #
 # Commands:
-#   hubot Hey - "Foo!!"と返答
+#   hubot 元気？ - ランダムに返答
 #
 # Notes:
-#   初めて作りました。
+#   ３つ目に作りました。
 #
 # Author:
 #   emisa.osada
 
 module.exports = (robot) ->
 
-  robot.respond /Hey/i, (msg) ->
-    msg.send "Foo!!"
-    
-# ここから↓が今回追加したやつ
-
-  robot.respond /おはよう/i, (msg) ->
-    msg.send "お、おはよう"
-    
   robot.respond /(元気(|げんき)？ | How are u?)/i, (msg) ->
     howareyou = msg.random [
       "I'm great!!"
