@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   hubot ‚°‚ñ‚«H - "Whtat' up?"‚Æ•Ô“š
+#   hubot Good morning! - "It's a wonderful day man!"‚Æ•Ô“š
 #
 # Notes:
 #   2‰ñ–Ú‚Éì‚è‚Ü‚µ‚½B
@@ -18,5 +18,5 @@
 
 module.exports = (robot) ->
 
-  robot.hear /‚°‚ñ‚«H/i, (msg) ->
-    msg.reply "Whtat' up?"
+  robot.hear /Good morning!/i, (msg) ->
+    msg.reply "It's a wonderful day man!"
