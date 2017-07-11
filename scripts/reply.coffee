@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   hubot yo - "Whtat' up?"‚Æ•Ô“š
+#   hubot ‚°‚ñ‚«H - "Whtat' up?"‚Æ•Ô“š
 #
 # Notes:
 #   2‰ñ–Ú‚Éì‚è‚Ü‚µ‚½B
