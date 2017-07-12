@@ -1,0 +1,849 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'jschardet' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData jschardet@^1.4.2
+8 silly fetchNamedPackageData jschardet
+9 silly mapToRegistry name jschardet
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'jschardet',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'jschardet',
+12 silly mapToRegistry   name: 'jschardet',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/jschardet
+14 verbose request uri https://registry.npmjs.org/jschardet
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 16:12:28
+17 verbose request id 4de3173813a6447b
+18 verbose etag W/"58d9c46f-3ac5"
+19 verbose lastModified Tue, 28 Mar 2017 02:03:27 GMT
+20 http request GET https://registry.npmjs.org/jschardet
+21 http 304 https://registry.npmjs.org/jschardet
+22 verbose headers { date: 'Tue, 11 Jul 2017 07:12:28 GMT',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   etag: 'W/"58d9c46f-3ac5"',
+22 verbose headers   age: '234',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-served-by': 'cache-nrt6134-NRT',
+22 verbose headers   'x-cache': 'HIT',
+22 verbose headers   'x-cache-hits': '6',
+22 verbose headers   'x-timer': 'S1499757148.195124,VS0,VE0',
+22 verbose headers   vary: 'Accept-Encoding, Accept' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Tue, 11 Jul 2017 07:12:28 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     etag: 'W/"58d9c46f-3ac5"',
+23 silly get     age: '234',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-nrt6134-NRT',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '6',
+23 silly get     'x-timer': 'S1499757148.195124,VS0,VE0',
+23 silly get     vary: 'Accept-Encoding, Accept' } ]
+24 verbose etag https://registry.npmjs.org/jschardet from cache
+25 verbose get saving jschardet to C:\Users\emisa.osada\AppData\Roaming\npm-cache\registry.npmjs.org\jschardet\.cache.json
+26 verbose correctMkdir C:\Users\emisa.osada\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule jschardet@1.4.2 checking installable status
+40 silly cache add args [ 'jschardet@^1.4.2', null ]
+41 verbose cache add spec jschardet@^1.4.2
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'jschardet@^1.4.2',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'jschardet',
+42 silly cache add   name: 'jschardet',
+42 silly cache add   rawSpec: '^1.4.2',
+42 silly cache add   spec: '>=1.4.2 <2.0.0',
+42 silly cache add   type: 'range' }
+43 silly addNamed jschardet@>=1.4.2 <2.0.0
+44 verbose addNamed ">=1.4.2 <2.0.0" is a valid semver range for jschardet
+45 silly addNameRange { name: 'jschardet', range: '>=1.4.2 <2.0.0', hasData: false }
+46 silly mapToRegistry name jschardet
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'jschardet',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'jschardet',
+49 silly mapToRegistry   name: 'jschardet',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/jschardet
+51 verbose addNameRange registry:https://registry.npmjs.org/jschardet not in flight; fetching
+52 verbose get https://registry.npmjs.org/jschardet not expired, no request
+53 silly addNameRange number 2 { name: 'jschardet', range: '>=1.4.2 <2.0.0', hasData: true }
+54 silly addNameRange versions [ 'jschardet',
+54 silly addNameRange   [ '0.0.1',
+54 silly addNameRange     '0.0.2',
+54 silly addNameRange     '1.0.0',
+54 silly addNameRange     '1.0.1',
+54 silly addNameRange     '1.0.2',
+54 silly addNameRange     '1.1.0',
+54 silly addNameRange     '1.1.1',
+54 silly addNameRange     '1.2.0',
+54 silly addNameRange     '1.3.0',
+54 silly addNameRange     '1.4.0',
+54 silly addNameRange     '1.4.1',
+54 silly addNameRange     '1.4.2' ] ]
+55 silly addNamed jschardet@1.4.2
+56 verbose addNamed "1.4.2" is a plain semver version for jschardet
+57 silly cache afterAdd jschardet@1.4.2
+58 verbose afterAdd C:\Users\emisa.osada\AppData\Roaming\npm-cache\jschardet\1.4.2\package\package.json not in flight; writing
+59 verbose correctMkdir C:\Users\emisa.osada\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+60 verbose afterAdd C:\Users\emisa.osada\AppData\Roaming\npm-cache\jschardet\1.4.2\package\package.json written
+61 silly loadAllDepsIntoIdealTree Finishing
+62 silly loadIdealTree Finishing
+63 silly currentTree MJ@0.0.0
+63 silly currentTree +-- @slack/client@3.10.0
+63 silly currentTree | +-- async@1.5.2
+63 silly currentTree | `-- lodash@4.17.4
+63 silly currentTree +-- accepts@1.2.13
+63 silly currentTree | +-- mime-db@1.27.0
+63 silly currentTree | `-- mime-types@2.1.15
+63 silly currentTree +-- agent-base@2.1.1
+63 silly currentTree +-- ajv@4.11.8
+63 silly currentTree +-- ansi-regex@2.1.1
+63 silly currentTree +-- ansi-styles@2.2.1
+63 silly currentTree +-- aproba@1.1.2
+63 silly currentTree +-- are-we-there-yet@1.1.4
+63 silly currentTree | +-- isarray@1.0.0
+63 silly currentTree | +-- readable-stream@2.3.3
+63 silly currentTree | +-- safe-buffer@5.1.1
+63 silly currentTree | `-- string_decoder@1.0.3
+63 silly currentTree +-- asn1@0.2.3
+63 silly currentTree +-- assert-plus@0.2.0
+63 silly currentTree +-- async@0.9.2
+63 silly currentTree +-- asynckit@0.4.0
+63 silly currentTree +-- aws-sign2@0.6.0
+63 silly currentTree +-- aws4@1.6.0
+63 silly currentTree +-- base64-url@1.2.1
+63 silly currentTree +-- basic-auth-connect@1.0.0
+63 silly currentTree +-- basic-auth@1.0.4
+63 silly currentTree +-- batch@0.5.3
+63 silly currentTree +-- bcrypt-pbkdf@1.0.1
+63 silly currentTree +-- bindings@1.2.1
+63 silly currentTree +-- bl@1.2.1
+63 silly currentTree | +-- isarray@1.0.0
+63 silly currentTree | +-- readable-stream@2.3.3
+63 silly currentTree | +-- safe-buffer@5.1.1
+63 silly currentTree | `-- string_decoder@1.0.3
+63 silly currentTree +-- bluebird@3.5.0
+63 silly currentTree +-- body-parser@1.13.3
+63 silly currentTree | +-- ee-first@1.1.1
+63 silly currentTree | +-- mime-db@1.27.0
+63 silly currentTree | +-- mime-types@2.1.15
+63 silly currentTree | +-- on-finished@2.3.0
+63 silly currentTree | +-- qs@4.0.0
+63 silly currentTree | `-- type-is@1.6.15
+63 silly currentTree +-- boom@2.10.1
+63 silly currentTree +-- bytes@2.1.0
+63 silly currentTree +-- caseless@0.12.0
+63 silly currentTree +-- chalk@1.1.3
+63 silly currentTree +-- chownr@1.0.1
+63 silly currentTree +-- cline@0.8.2
+63 silly currentTree +-- co@4.6.0
+63 silly currentTree +-- code-point-at@1.1.0
+63 silly currentTree +-- coffee-script@1.6.3
+63 silly currentTree +-- colors@1.0.3
+63 silly currentTree +-- combined-stream@1.0.5
+63 silly currentTree +-- commander@2.6.0
+63 silly currentTree +-- compressible@2.0.10
+63 silly currentTree | `-- mime-db@1.28.0
+63 silly currentTree +-- compression@1.5.2
+63 silly currentTree +-- connect-multiparty@1.2.5
+63 silly currentTree +-- connect-timeout@1.6.2
+63 silly currentTree +-- connect@2.30.2
+63 silly currentTree | +-- mime-db@1.27.0
+63 silly currentTree | +-- mime-types@2.1.15
+63 silly currentTree | +-- qs@4.0.0
+63 silly currentTree | `-- type-is@1.6.15
+63 silly currentTree +-- console-control-strings@1.1.0
+63 silly currentTree +-- content-disposition@0.5.0
+63 silly currentTree +-- content-type@1.0.2
+63 silly currentTree +-- cookie-parser@1.3.5
+63 silly currentTree +-- cookie-signature@1.0.6
+63 silly currentTree +-- cookie@0.1.3
+63 silly currentTree +-- core-util-is@1.0.2
+63 silly currentTree +-- crc@3.3.0
+63 silly currentTree +-- cryptiles@2.0.5
+63 silly currentTree +-- csrf@3.0.6
+63 silly currentTree +-- csurf@1.8.3
+63 silly currentTree +-- cycle@1.0.3
+63 silly currentTree +-- dashdash@1.14.1
+63 silly currentTree | `-- assert-plus@1.0.0
+63 silly currentTree +-- debug@2.2.0
+63 silly currentTree +-- deep-extend@0.4.2
+63 silly currentTree +-- delayed-stream@1.0.0
+63 silly currentTree +-- delegates@1.0.0
+63 silly currentTree +-- depd@1.0.1
+63 silly currentTree +-- destroy@1.0.4
+63 silly currentTree +-- ecc-jsbn@0.1.1
+63 silly currentTree +-- ee-first@1.1.0
+63 silly currentTree +-- end-of-stream@1.4.0
+63 silly currentTree +-- errorhandler@1.4.3
+63 silly currentTree | +-- accepts@1.3.3
+63 silly currentTree | +-- escape-html@1.0.3
+63 silly currentTree | +-- mime-db@1.27.0
+63 silly currentTree | +-- mime-types@2.1.15
+63 silly currentTree | `-- negotiator@0.6.1
+63 silly currentTree +-- escape-html@1.0.2
+63 silly currentTree +-- escape-string-regexp@1.0.5
+63 silly currentTree +-- etag@1.7.0
+63 silly currentTree +-- eventemitter3@1.2.0
+63 silly currentTree +-- expand-template@1.0.3
+63 silly currentTree +-- express-session@1.11.3
+63 silly currentTree | `-- uid-safe@2.0.0
+63 silly currentTree +-- express@3.21.2
+63 silly currentTree +-- extend@3.0.1
+63 silly currentTree +-- extsprintf@1.0.2
+63 silly currentTree +-- eyes@0.1.8
+63 silly currentTree +-- finalhandler@0.4.0
+63 silly currentTree | +-- ee-first@1.1.1
+63 silly currentTree | `-- on-finished@2.3.0
+63 silly currentTree +-- forever-agent@0.6.1
+63 silly currentTree +-- form-data@2.1.4
+63 silly currentTree | +-- mime-db@1.27.0
+63 silly currentTree | `-- mime-types@2.1.15
+63 silly currentTree +-- forwarded@0.1.0
+63 silly currentTree +-- fresh@0.3.0
+63 silly currentTree +-- gauge@2.7.4
+63 silly currentTree +-- getpass@0.1.7
+63 silly currentTree | `-- assert-plus@1.0.0
+63 silly currentTree +-- github-from-package@0.0.0
+63 silly currentTree +-- har-schema@1.0.5
+63 silly currentTree +-- har-validator@4.2.1
+63 silly currentTree +-- has-ansi@2.0.0
+63 silly currentTree +-- has-unicode@2.0.1
+63 silly currentTree +-- hawk@3.1.3
+63 silly currentTree +-- hoek@2.16.3
+63 silly currentTree +-- http-errors@1.3.1
+63 silly currentTree +-- http-signature@1.1.1
+63 silly currentTree +-- https-proxy-agent@1.0.0
+63 silly currentTree +-- hubot-diagnostics@0.0.1
+63 silly currentTree +-- hubot-google-images@0.2.6
+63 silly currentTree +-- hubot-google-translate@0.2.0
+63 silly currentTree +-- hubot-help@0.2.0
+63 silly currentTree +-- hubot-heroku-keepalive@1.0.3
+63 silly currentTree +-- hubot-maps@0.0.2
+63 silly currentTree +-- hubot-pugme@0.1.0
+63 silly currentTree +-- hubot-redis-brain@0.0.3
+63 silly currentTree +-- hubot-rules@0.1.1
+63 silly currentTree +-- hubot-scripts@2.17.2
+63 silly currentTree +-- hubot-shipit@0.2.0
+63 silly currentTree +-- hubot-slack@4.3.4
+63 silly currentTree +-- hubot@2.19.0
+63 silly currentTree +-- iconv-lite@0.4.11
+63 silly currentTree +-- iconv@2.3.0
+63 silly currentTree +-- inherits@2.0.3
+63 silly currentTree +-- ini@1.3.4
+63 silly currentTree +-- ipaddr.js@1.0.5
+63 silly currentTree +-- is-fullwidth-code-point@1.0.0
+63 silly currentTree +-- is-typedarray@1.0.0
+63 silly currentTree +-- isarray@0.0.1
+63 silly currentTree +-- isstream@0.1.2
+63 silly currentTree +-- jsbn@0.1.1
+63 silly currentTree +-- jschardet@1.4.2
+63 silly currentTree +-- json-schema@0.2.3
+63 silly currentTree +-- json-stable-stringify@1.0.1
+63 silly currentTree +-- json-stringify-safe@5.0.1
+63 silly currentTree +-- jsonify@0.0.0
+63 silly currentTree +-- jsprim@1.4.0
+63 silly currentTree | `-- assert-plus@1.0.0
+63 silly currentTree +-- lodash@3.10.1
+63 silly currentTree +-- log@1.4.0
+63 silly currentTree +-- media-typer@0.3.0
+63 silly currentTree +-- merge-descriptors@1.0.0
+63 silly currentTree +-- method-override@2.3.9
+63 silly currentTree | +-- debug@2.6.8
+63 silly currentTree | +-- ms@2.0.0
+63 silly currentTree | `-- vary@1.1.1
+63 silly currentTree +-- methods@1.1.2
+63 silly currentTree +-- mime-db@1.12.0
+63 silly currentTree +-- mime-types@2.0.14
+63 silly currentTree +-- mime@1.3.4
+63 silly currentTree +-- minimist@0.0.8
+63 silly currentTree +-- mkdirp@0.5.1
+63 silly currentTree +-- morgan@1.6.1
+63 silly currentTree | +-- ee-first@1.1.1
+63 silly currentTree | `-- on-finished@2.3.0
+63 silly currentTree +-- ms@0.7.1
+63 silly currentTree +-- multiparty@3.3.2
+63 silly currentTree +-- nan@2.6.2
+63 silly currentTree +-- negotiator@0.5.3
+63 silly currentTree +-- node-abi@2.0.3
+63 silly currentTree +-- noop-logger@0.1.1
+63 silly currentTree +-- npmlog@4.1.2
+63 silly currentTree +-- number-is-nan@1.0.1
+63 silly currentTree +-- oauth-sign@0.8.2
+63 silly currentTree +-- object-assign@4.1.1
+63 silly currentTree +-- on-finished@2.1.1
+63 silly currentTree +-- on-headers@1.0.1
+63 silly currentTree +-- once@1.4.0
+63 silly currentTree +-- options@0.0.6
+63 silly currentTree +-- optparse@1.0.4
+63 silly currentTree +-- os-homedir@1.0.2
+63 silly currentTree +-- parseurl@1.3.1
+63 silly currentTree +-- pause@0.1.0
+63 silly currentTree +-- performance-now@0.2.0
+63 silly currentTree +-- pkginfo@0.4.0
+63 silly currentTree +-- prebuild-install@2.2.0
+63 silly currentTree | `-- minimist@1.2.0
+63 silly currentTree +-- process-nextick-args@1.0.7
+63 silly currentTree +-- proxy-addr@1.0.10
+63 silly currentTree +-- pump@1.0.2
+63 silly currentTree +-- punycode@1.4.1
+63 silly currentTree +-- qs@2.2.5
+63 silly currentTree +-- random-bytes@1.0.0
+63 silly currentTree +-- range-parser@1.0.3
+63 silly currentTree +-- raw-body@2.1.7
+63 silly currentTree | +-- bytes@2.4.0
+63 silly currentTree | `-- iconv-lite@0.4.13
+63 silly currentTree +-- rc@1.2.1
+63 silly currentTree | `-- minimist@1.2.0
+63 silly currentTree +-- readable-stream@1.1.14
+63 silly currentTree +-- redis@0.8.4
+63 silly currentTree +-- request@2.81.0
+63 silly currentTree | +-- mime-db@1.27.0
+63 silly currentTree | +-- mime-types@2.1.15
+63 silly currentTree | `-- qs@6.4.0
+63 silly currentTree +-- response-time@2.3.2
+63 silly currentTree | `-- depd@1.1.0
+63 silly currentTree +-- retry@0.9.0
+63 silly currentTree +-- rndm@1.2.0
+63 silly currentTree +-- safe-buffer@5.1.0
+63 silly currentTree +-- scoped-http-client@0.11.0
+63 silly currentTree +-- semver@5.0.3
+63 silly currentTree +-- send@0.13.0
+63 silly currentTree | +-- destroy@1.0.3
+63 silly currentTree | +-- ee-first@1.1.1
+63 silly currentTree | +-- on-finished@2.3.0
+63 silly currentTree | `-- statuses@1.2.1
+63 silly currentTree +-- serve-favicon@2.3.2
+63 silly currentTree | `-- ms@0.7.2
+63 silly currentTree +-- serve-index@1.7.3
+63 silly currentTree | +-- escape-html@1.0.3
+63 silly currentTree | +-- mime-db@1.27.0
+63 silly currentTree | `-- mime-types@2.1.15
+63 silly currentTree +-- serve-static@1.10.3
+63 silly currentTree | +-- depd@1.1.0
+63 silly currentTree | +-- ee-first@1.1.1
+63 silly currentTree | +-- escape-html@1.0.3
+63 silly currentTree | +-- on-finished@2.3.0
+63 silly currentTree | +-- send@0.13.2
+63 silly currentTree | `-- statuses@1.2.1
+63 silly currentTree +-- set-blocking@2.0.0
+63 silly currentTree +-- signal-exit@3.0.2
+63 silly currentTree +-- simple-get@1.4.3
+63 silly currentTree +-- sntp@1.0.9
+63 silly currentTree +-- sshpk@1.13.1
+63 silly currentTree | `-- assert-plus@1.0.0
+63 silly currentTree +-- stack-trace@0.0.10
+63 silly currentTree +-- statuses@1.3.1
+63 silly currentTree +-- stream-counter@0.2.0
+63 silly currentTree +-- string_decoder@0.10.31
+63 silly currentTree +-- string-width@1.0.2
+63 silly currentTree +-- stringstream@0.0.5
+63 silly currentTree +-- strip-ansi@3.0.1
+63 silly currentTree +-- strip-json-comments@2.0.1
+63 silly currentTree +-- supports-color@2.0.0
+63 silly currentTree +-- tar-fs@1.15.3
+63 silly currentTree +-- tar-stream@1.5.4
+63 silly currentTree | +-- isarray@1.0.0
+63 silly currentTree | +-- readable-stream@2.3.3
+63 silly currentTree | +-- safe-buffer@5.1.1
+63 silly currentTree | `-- string_decoder@1.0.3
+63 silly currentTree +-- tough-cookie@2.3.2
+63 silly currentTree +-- tsscmp@1.0.5
+63 silly currentTree +-- tunnel-agent@0.6.0
+63 silly currentTree +-- tweetnacl@0.14.5
+63 silly currentTree +-- type-is@1.5.7
+63 silly currentTree +-- uid-safe@2.1.4
+63 silly currentTree +-- ultron@1.0.2
+63 silly currentTree +-- unpipe@1.0.0
+63 silly currentTree +-- unzip-response@1.0.2
+63 silly currentTree +-- url-join@0.0.1
+63 silly currentTree +-- utf-8-validate@3.0.3
+63 silly currentTree +-- util-deprecate@1.0.2
+63 silly currentTree +-- utils-merge@1.0.0
+63 silly currentTree +-- uuid@3.1.0
+63 silly currentTree +-- vary@1.0.1
+63 silly currentTree +-- verror@1.3.6
+63 silly currentTree +-- vhost@3.0.2
+63 silly currentTree +-- wide-align@1.1.2
+63 silly currentTree +-- winston@2.3.1
+63 silly currentTree | `-- async@1.0.0
+63 silly currentTree +-- wrappy@1.0.2
+63 silly currentTree +-- ws@1.1.4
+63 silly currentTree `-- xtend@4.0.1
+64 silly idealTree MJ@0.0.0
+64 silly idealTree +-- @slack/client@3.10.0
+64 silly idealTree | +-- async@1.5.2
+64 silly idealTree | `-- lodash@4.17.4
+64 silly idealTree +-- accepts@1.2.13
+64 silly idealTree | +-- mime-db@1.27.0
+64 silly idealTree | `-- mime-types@2.1.15
+64 silly idealTree +-- agent-base@2.1.1
+64 silly idealTree +-- ajv@4.11.8
+64 silly idealTree +-- ansi-regex@2.1.1
+64 silly idealTree +-- ansi-styles@2.2.1
+64 silly idealTree +-- aproba@1.1.2
+64 silly idealTree +-- are-we-there-yet@1.1.4
+64 silly idealTree | +-- isarray@1.0.0
+64 silly idealTree | +-- readable-stream@2.3.3
+64 silly idealTree | +-- safe-buffer@5.1.1
+64 silly idealTree | `-- string_decoder@1.0.3
+64 silly idealTree +-- asn1@0.2.3
+64 silly idealTree +-- assert-plus@0.2.0
+64 silly idealTree +-- async@0.9.2
+64 silly idealTree +-- asynckit@0.4.0
+64 silly idealTree +-- aws-sign2@0.6.0
+64 silly idealTree +-- aws4@1.6.0
+64 silly idealTree +-- base64-url@1.2.1
+64 silly idealTree +-- basic-auth-connect@1.0.0
+64 silly idealTree +-- basic-auth@1.0.4
+64 silly idealTree +-- batch@0.5.3
+64 silly idealTree +-- bcrypt-pbkdf@1.0.1
+64 silly idealTree +-- bindings@1.2.1
+64 silly idealTree +-- bl@1.2.1
+64 silly idealTree | +-- isarray@1.0.0
+64 silly idealTree | +-- readable-stream@2.3.3
+64 silly idealTree | +-- safe-buffer@5.1.1
+64 silly idealTree | `-- string_decoder@1.0.3
+64 silly idealTree +-- bluebird@3.5.0
+64 silly idealTree +-- body-parser@1.13.3
+64 silly idealTree | +-- ee-first@1.1.1
+64 silly idealTree | +-- mime-db@1.27.0
+64 silly idealTree | +-- mime-types@2.1.15
+64 silly idealTree | +-- on-finished@2.3.0
+64 silly idealTree | +-- qs@4.0.0
+64 silly idealTree | `-- type-is@1.6.15
+64 silly idealTree +-- boom@2.10.1
+64 silly idealTree +-- bytes@2.1.0
+64 silly idealTree +-- caseless@0.12.0
+64 silly idealTree +-- chalk@1.1.3
+64 silly idealTree +-- chownr@1.0.1
+64 silly idealTree +-- cline@0.8.2
+64 silly idealTree +-- co@4.6.0
+64 silly idealTree +-- code-point-at@1.1.0
+64 silly idealTree +-- coffee-script@1.6.3
+64 silly idealTree +-- colors@1.0.3
+64 silly idealTree +-- combined-stream@1.0.5
+64 silly idealTree +-- commander@2.6.0
+64 silly idealTree +-- compressible@2.0.10
+64 silly idealTree | `-- mime-db@1.28.0
+64 silly idealTree +-- compression@1.5.2
+64 silly idealTree +-- connect-multiparty@1.2.5
+64 silly idealTree +-- connect-timeout@1.6.2
+64 silly idealTree +-- connect@2.30.2
+64 silly idealTree | +-- mime-db@1.27.0
+64 silly idealTree | +-- mime-types@2.1.15
+64 silly idealTree | +-- qs@4.0.0
+64 silly idealTree | `-- type-is@1.6.15
+64 silly idealTree +-- console-control-strings@1.1.0
+64 silly idealTree +-- content-disposition@0.5.0
+64 silly idealTree +-- content-type@1.0.2
+64 silly idealTree +-- cookie-parser@1.3.5
+64 silly idealTree +-- cookie-signature@1.0.6
+64 silly idealTree +-- cookie@0.1.3
+64 silly idealTree +-- core-util-is@1.0.2
+64 silly idealTree +-- crc@3.3.0
+64 silly idealTree +-- cryptiles@2.0.5
+64 silly idealTree +-- csrf@3.0.6
+64 silly idealTree +-- csurf@1.8.3
+64 silly idealTree +-- cycle@1.0.3
+64 silly idealTree +-- dashdash@1.14.1
+64 silly idealTree | `-- assert-plus@1.0.0
+64 silly idealTree +-- debug@2.2.0
+64 silly idealTree +-- deep-extend@0.4.2
+64 silly idealTree +-- delayed-stream@1.0.0
+64 silly idealTree +-- delegates@1.0.0
+64 silly idealTree +-- depd@1.0.1
+64 silly idealTree +-- destroy@1.0.4
+64 silly idealTree +-- ecc-jsbn@0.1.1
+64 silly idealTree +-- ee-first@1.1.0
+64 silly idealTree +-- end-of-stream@1.4.0
+64 silly idealTree +-- errorhandler@1.4.3
+64 silly idealTree | +-- accepts@1.3.3
+64 silly idealTree | +-- escape-html@1.0.3
+64 silly idealTree | +-- mime-db@1.27.0
+64 silly idealTree | +-- mime-types@2.1.15
+64 silly idealTree | `-- negotiator@0.6.1
+64 silly idealTree +-- escape-html@1.0.2
+64 silly idealTree +-- escape-string-regexp@1.0.5
+64 silly idealTree +-- etag@1.7.0
+64 silly idealTree +-- eventemitter3@1.2.0
+64 silly idealTree +-- expand-template@1.0.3
+64 silly idealTree +-- express-session@1.11.3
+64 silly idealTree | `-- uid-safe@2.0.0
+64 silly idealTree +-- express@3.21.2
+64 silly idealTree +-- extend@3.0.1
+64 silly idealTree +-- extsprintf@1.0.2
+64 silly idealTree +-- eyes@0.1.8
+64 silly idealTree +-- finalhandler@0.4.0
+64 silly idealTree | +-- ee-first@1.1.1
+64 silly idealTree | `-- on-finished@2.3.0
+64 silly idealTree +-- forever-agent@0.6.1
+64 silly idealTree +-- form-data@2.1.4
+64 silly idealTree | +-- mime-db@1.27.0
+64 silly idealTree | `-- mime-types@2.1.15
+64 silly idealTree +-- forwarded@0.1.0
+64 silly idealTree +-- fresh@0.3.0
+64 silly idealTree +-- gauge@2.7.4
+64 silly idealTree +-- getpass@0.1.7
+64 silly idealTree | `-- assert-plus@1.0.0
+64 silly idealTree +-- github-from-package@0.0.0
+64 silly idealTree +-- har-schema@1.0.5
+64 silly idealTree +-- har-validator@4.2.1
+64 silly idealTree +-- has-ansi@2.0.0
+64 silly idealTree +-- has-unicode@2.0.1
+64 silly idealTree +-- hawk@3.1.3
+64 silly idealTree +-- hoek@2.16.3
+64 silly idealTree +-- http-errors@1.3.1
+64 silly idealTree +-- http-signature@1.1.1
+64 silly idealTree +-- https-proxy-agent@1.0.0
+64 silly idealTree +-- hubot-diagnostics@0.0.1
+64 silly idealTree +-- hubot-google-images@0.2.6
+64 silly idealTree +-- hubot-google-translate@0.2.0
+64 silly idealTree +-- hubot-help@0.2.0
+64 silly idealTree +-- hubot-heroku-keepalive@1.0.3
+64 silly idealTree +-- hubot-maps@0.0.2
+64 silly idealTree +-- hubot-pugme@0.1.0
+64 silly idealTree +-- hubot-redis-brain@0.0.3
+64 silly idealTree +-- hubot-rules@0.1.1
+64 silly idealTree +-- hubot-scripts@2.17.2
+64 silly idealTree +-- hubot-shipit@0.2.0
+64 silly idealTree +-- hubot-slack@4.3.4
+64 silly idealTree +-- hubot@2.19.0
+64 silly idealTree +-- iconv-lite@0.4.11
+64 silly idealTree +-- iconv@2.3.0
+64 silly idealTree +-- inherits@2.0.3
+64 silly idealTree +-- ini@1.3.4
+64 silly idealTree +-- ipaddr.js@1.0.5
+64 silly idealTree +-- is-fullwidth-code-point@1.0.0
+64 silly idealTree +-- is-typedarray@1.0.0
+64 silly idealTree +-- isarray@0.0.1
+64 silly idealTree +-- isstream@0.1.2
+64 silly idealTree +-- jsbn@0.1.1
+64 silly idealTree +-- jschardet@1.4.2
+64 silly idealTree +-- json-schema@0.2.3
+64 silly idealTree +-- json-stable-stringify@1.0.1
+64 silly idealTree +-- json-stringify-safe@5.0.1
+64 silly idealTree +-- jsonify@0.0.0
+64 silly idealTree +-- jsprim@1.4.0
+64 silly idealTree | `-- assert-plus@1.0.0
+64 silly idealTree +-- lodash@3.10.1
+64 silly idealTree +-- log@1.4.0
+64 silly idealTree +-- media-typer@0.3.0
+64 silly idealTree +-- merge-descriptors@1.0.0
+64 silly idealTree +-- method-override@2.3.9
+64 silly idealTree | +-- debug@2.6.8
+64 silly idealTree | +-- ms@2.0.0
+64 silly idealTree | `-- vary@1.1.1
+64 silly idealTree +-- methods@1.1.2
+64 silly idealTree +-- mime-db@1.12.0
+64 silly idealTree +-- mime-types@2.0.14
+64 silly idealTree +-- mime@1.3.4
+64 silly idealTree +-- minimist@0.0.8
+64 silly idealTree +-- mkdirp@0.5.1
+64 silly idealTree +-- morgan@1.6.1
+64 silly idealTree | +-- ee-first@1.1.1
+64 silly idealTree | `-- on-finished@2.3.0
+64 silly idealTree +-- ms@0.7.1
+64 silly idealTree +-- multiparty@3.3.2
+64 silly idealTree +-- nan@2.6.2
+64 silly idealTree +-- negotiator@0.5.3
+64 silly idealTree +-- node-abi@2.0.3
+64 silly idealTree +-- noop-logger@0.1.1
+64 silly idealTree +-- npmlog@4.1.2
+64 silly idealTree +-- number-is-nan@1.0.1
+64 silly idealTree +-- oauth-sign@0.8.2
+64 silly idealTree +-- object-assign@4.1.1
+64 silly idealTree +-- on-finished@2.1.1
+64 silly idealTree +-- on-headers@1.0.1
+64 silly idealTree +-- once@1.4.0
+64 silly idealTree +-- options@0.0.6
+64 silly idealTree +-- optparse@1.0.4
+64 silly idealTree +-- os-homedir@1.0.2
+64 silly idealTree +-- parseurl@1.3.1
+64 silly idealTree +-- pause@0.1.0
+64 silly idealTree +-- performance-now@0.2.0
+64 silly idealTree +-- pkginfo@0.4.0
+64 silly idealTree +-- prebuild-install@2.2.0
+64 silly idealTree | `-- minimist@1.2.0
+64 silly idealTree +-- process-nextick-args@1.0.7
+64 silly idealTree +-- proxy-addr@1.0.10
+64 silly idealTree +-- pump@1.0.2
+64 silly idealTree +-- punycode@1.4.1
+64 silly idealTree +-- qs@2.2.5
+64 silly idealTree +-- random-bytes@1.0.0
+64 silly idealTree +-- range-parser@1.0.3
+64 silly idealTree +-- raw-body@2.1.7
+64 silly idealTree | +-- bytes@2.4.0
+64 silly idealTree | `-- iconv-lite@0.4.13
+64 silly idealTree +-- rc@1.2.1
+64 silly idealTree | `-- minimist@1.2.0
+64 silly idealTree +-- readable-stream@1.1.14
+64 silly idealTree +-- redis@0.8.4
+64 silly idealTree +-- request@2.81.0
+64 silly idealTree | +-- mime-db@1.27.0
+64 silly idealTree | +-- mime-types@2.1.15
+64 silly idealTree | `-- qs@6.4.0
+64 silly idealTree +-- response-time@2.3.2
+64 silly idealTree | `-- depd@1.1.0
+64 silly idealTree +-- retry@0.9.0
+64 silly idealTree +-- rndm@1.2.0
+64 silly idealTree +-- safe-buffer@5.1.0
+64 silly idealTree +-- scoped-http-client@0.11.0
+64 silly idealTree +-- semver@5.0.3
+64 silly idealTree +-- send@0.13.0
+64 silly idealTree | +-- destroy@1.0.3
+64 silly idealTree | +-- ee-first@1.1.1
+64 silly idealTree | +-- on-finished@2.3.0
+64 silly idealTree | `-- statuses@1.2.1
+64 silly idealTree +-- serve-favicon@2.3.2
+64 silly idealTree | `-- ms@0.7.2
+64 silly idealTree +-- serve-index@1.7.3
+64 silly idealTree | +-- escape-html@1.0.3
+64 silly idealTree | +-- mime-db@1.27.0
+64 silly idealTree | `-- mime-types@2.1.15
+64 silly idealTree +-- serve-static@1.10.3
+64 silly idealTree | +-- depd@1.1.0
+64 silly idealTree | +-- ee-first@1.1.1
+64 silly idealTree | +-- escape-html@1.0.3
+64 silly idealTree | +-- on-finished@2.3.0
+64 silly idealTree | +-- send@0.13.2
+64 silly idealTree | `-- statuses@1.2.1
+64 silly idealTree +-- set-blocking@2.0.0
+64 silly idealTree +-- signal-exit@3.0.2
+64 silly idealTree +-- simple-get@1.4.3
+64 silly idealTree +-- sntp@1.0.9
+64 silly idealTree +-- sshpk@1.13.1
+64 silly idealTree | `-- assert-plus@1.0.0
+64 silly idealTree +-- stack-trace@0.0.10
+64 silly idealTree +-- statuses@1.3.1
+64 silly idealTree +-- stream-counter@0.2.0
+64 silly idealTree +-- string_decoder@0.10.31
+64 silly idealTree +-- string-width@1.0.2
+64 silly idealTree +-- stringstream@0.0.5
+64 silly idealTree +-- strip-ansi@3.0.1
+64 silly idealTree +-- strip-json-comments@2.0.1
+64 silly idealTree +-- supports-color@2.0.0
+64 silly idealTree +-- tar-fs@1.15.3
+64 silly idealTree +-- tar-stream@1.5.4
+64 silly idealTree | +-- isarray@1.0.0
+64 silly idealTree | +-- readable-stream@2.3.3
+64 silly idealTree | +-- safe-buffer@5.1.1
+64 silly idealTree | `-- string_decoder@1.0.3
+64 silly idealTree +-- tough-cookie@2.3.2
+64 silly idealTree +-- tsscmp@1.0.5
+64 silly idealTree +-- tunnel-agent@0.6.0
+64 silly idealTree +-- tweetnacl@0.14.5
+64 silly idealTree +-- type-is@1.5.7
+64 silly idealTree +-- uid-safe@2.1.4
+64 silly idealTree +-- ultron@1.0.2
+64 silly idealTree +-- unpipe@1.0.0
+64 silly idealTree +-- unzip-response@1.0.2
+64 silly idealTree +-- url-join@0.0.1
+64 silly idealTree +-- utf-8-validate@3.0.3
+64 silly idealTree +-- util-deprecate@1.0.2
+64 silly idealTree +-- utils-merge@1.0.0
+64 silly idealTree +-- uuid@3.1.0
+64 silly idealTree +-- vary@1.0.1
+64 silly idealTree +-- verror@1.3.6
+64 silly idealTree +-- vhost@3.0.2
+64 silly idealTree +-- wide-align@1.1.2
+64 silly idealTree +-- winston@2.3.1
+64 silly idealTree | `-- async@1.0.0
+64 silly idealTree +-- wrappy@1.0.2
+64 silly idealTree +-- ws@1.1.4
+64 silly idealTree `-- xtend@4.0.1
+65 silly generateActionsToTake Starting
+66 silly install generateActionsToTake
+67 silly generateActionsToTake Finishing
+68 silly diffTrees action count 1
+69 silly diffTrees update jschardet@1.4.2
+70 silly decomposeActions action count 9
+71 silly decomposeActions remove jschardet@1.4.2
+72 silly decomposeActions fetch jschardet@1.4.2
+73 silly decomposeActions extract jschardet@1.4.2
+74 silly decomposeActions test jschardet@1.4.2
+75 silly decomposeActions preinstall jschardet@1.4.2
+76 silly decomposeActions build jschardet@1.4.2
+77 silly decomposeActions install jschardet@1.4.2
+78 silly decomposeActions postinstall jschardet@1.4.2
+79 silly decomposeActions finalize jschardet@1.4.2
+80 silly runTopLevelLifecycles Starting
+81 silly executeActions Starting
+82 silly install executeActions
+83 silly doSerial global-install 0
+84 silly doParallel fetch 1
+85 verbose correctMkdir C:\Users\emisa.osada\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+86 verbose lock using C:\Users\emisa.osada\AppData\Roaming\npm-cache\_locks\staging-fc64a7a377bb2144.lock for C:\hubot\mjbot\node_modules\.staging
+87 silly doParallel extract 1
+88 silly extract jschardet@1.4.2
+89 verbose unbuild node_modules\.staging\jschardet-0a4975e4
+90 silly gentlyRm C:\hubot\mjbot\node_modules\.staging\jschardet-0a4975e4 is being purged from base C:\hubot\mjbot
+91 verbose gentlyRm don't care about contents; nuking C:\hubot\mjbot\node_modules\.staging\jschardet-0a4975e4
+92 verbose tar unpack C:\Users\emisa.osada\AppData\Roaming\npm-cache\jschardet\1.4.2\package.tgz
+93 verbose tar unpacking to C:\hubot\mjbot\node_modules\.staging\jschardet-0a4975e4
+94 silly gentlyRm C:\hubot\mjbot\node_modules\.staging\jschardet-0a4975e4 is being purged
+95 verbose gentlyRm don't care about contents; nuking C:\hubot\mjbot\node_modules\.staging\jschardet-0a4975e4
+96 silly gunzTarPerm modes [ '777', '666' ]
+97 silly gunzTarPerm extractEntry package.json
+98 silly gunzTarPerm modified mode [ 'package.json', 493, 511 ]
+99 silly gunzTarPerm extractEntry .npmignore
+100 silly gunzTarPerm modified mode [ '.npmignore', 493, 511 ]
+101 silly gunzTarPerm extractEntry README.md
+102 silly gunzTarPerm modified mode [ 'README.md', 493, 511 ]
+103 silly gunzTarPerm extractEntry index.js
+104 silly gunzTarPerm modified mode [ 'index.js', 493, 511 ]
+105 silly gunzTarPerm extractEntry CONTRIBUTORS
+106 silly gunzTarPerm modified mode [ 'CONTRIBUTORS', 493, 511 ]
+107 silly gunzTarPerm extractEntry dist/jschardet.js
+108 silly gunzTarPerm modified mode [ 'dist/jschardet.js', 493, 511 ]
+109 silly gunzTarPerm extractEntry dist/jschardet.min.js
+110 silly gunzTarPerm modified mode [ 'dist/jschardet.min.js', 493, 511 ]
+111 silly gunzTarPerm extractEntry src/big5freq.js
+112 silly gunzTarPerm modified mode [ 'src/big5freq.js', 493, 511 ]
+113 silly gunzTarPerm extractEntry src/gb2312freq.js
+114 silly gunzTarPerm modified mode [ 'src/gb2312freq.js', 493, 511 ]
+115 silly gunzTarPerm extractEntry src/gb2312prober.js
+116 silly gunzTarPerm modified mode [ 'src/gb2312prober.js', 493, 511 ]
+117 silly gunzTarPerm extractEntry src/hebrewprober.js
+118 silly gunzTarPerm modified mode [ 'src/hebrewprober.js', 493, 511 ]
+119 silly gunzTarPerm extractEntry src/index.js
+120 silly gunzTarPerm modified mode [ 'src/index.js', 493, 511 ]
+121 silly gunzTarPerm extractEntry src/euctwprober.js
+122 silly gunzTarPerm modified mode [ 'src/euctwprober.js', 493, 511 ]
+123 silly gunzTarPerm extractEntry src/jisfreq.js
+124 silly gunzTarPerm modified mode [ 'src/jisfreq.js', 493, 511 ]
+125 silly gunzTarPerm extractEntry src/jpcntx.js
+126 silly gunzTarPerm modified mode [ 'src/jpcntx.js', 493, 511 ]
+127 silly gunzTarPerm extractEntry src/langbulgarianmodel.js
+128 silly gunzTarPerm modified mode [ 'src/langbulgarianmodel.js', 493, 511 ]
+129 silly gunzTarPerm extractEntry src/langcyrillicmodel.js
+130 silly gunzTarPerm modified mode [ 'src/langcyrillicmodel.js', 493, 511 ]
+131 silly gunzTarPerm extractEntry src/langgreekmodel.js
+132 silly gunzTarPerm modified mode [ 'src/langgreekmodel.js', 493, 511 ]
+133 silly gunzTarPerm extractEntry src/euctwfreq.js
+134 silly gunzTarPerm modified mode [ 'src/euctwfreq.js', 493, 511 ]
+135 silly gunzTarPerm extractEntry src/langhebrewmodel.js
+136 silly gunzTarPerm modified mode [ 'src/langhebrewmodel.js', 493, 511 ]
+137 silly gunzTarPerm extractEntry src/euckrprober.js
+138 silly gunzTarPerm modified mode [ 'src/euckrprober.js', 493, 511 ]
+139 silly gunzTarPerm extractEntry src/langhungarianmodel.js
+140 silly gunzTarPerm modified mode [ 'src/langhungarianmodel.js', 493, 511 ]
+141 silly gunzTarPerm extractEntry src/euckrfreq.js
+142 silly gunzTarPerm modified mode [ 'src/euckrfreq.js', 493, 511 ]
+143 silly gunzTarPerm extractEntry src/langthaimodel.js
+144 silly gunzTarPerm modified mode [ 'src/langthaimodel.js', 493, 511 ]
+145 silly gunzTarPerm extractEntry src/eucjpprober.js
+146 silly gunzTarPerm modified mode [ 'src/eucjpprober.js', 493, 511 ]
+147 silly gunzTarPerm extractEntry src/latin1prober.js
+148 silly gunzTarPerm modified mode [ 'src/latin1prober.js', 493, 511 ]
+149 silly gunzTarPerm extractEntry src/escsm.js
+150 silly gunzTarPerm modified mode [ 'src/escsm.js', 493, 511 ]
+151 silly gunzTarPerm extractEntry src/mbcharsetprober.js
+152 silly gunzTarPerm modified mode [ 'src/mbcharsetprober.js', 493, 511 ]
+153 silly gunzTarPerm extractEntry src/escprober.js
+154 silly gunzTarPerm modified mode [ 'src/escprober.js', 493, 511 ]
+155 silly gunzTarPerm extractEntry src/mbcsgroupprober.js
+156 silly gunzTarPerm modified mode [ 'src/mbcsgroupprober.js', 493, 511 ]
+157 silly gunzTarPerm extractEntry src/constants.js
+158 silly gunzTarPerm modified mode [ 'src/constants.js', 493, 511 ]
+159 silly gunzTarPerm extractEntry src/mbcssm.js
+160 silly gunzTarPerm modified mode [ 'src/mbcssm.js', 493, 511 ]
+161 silly gunzTarPerm extractEntry src/codingstatemachine.js
+162 silly gunzTarPerm modified mode [ 'src/codingstatemachine.js', 493, 511 ]
+163 silly gunzTarPerm extractEntry src/sbcharsetprober.js
+164 silly gunzTarPerm modified mode [ 'src/sbcharsetprober.js', 493, 511 ]
+165 silly gunzTarPerm extractEntry src/charsetprober.js
+166 silly gunzTarPerm modified mode [ 'src/charsetprober.js', 493, 511 ]
+167 silly gunzTarPerm extractEntry src/sbcsgroupprober.js
+168 silly gunzTarPerm modified mode [ 'src/sbcsgroupprober.js', 493, 511 ]
+169 silly gunzTarPerm extractEntry src/charsetgroupprober.js
+170 silly gunzTarPerm modified mode [ 'src/charsetgroupprober.js', 493, 511 ]
+171 silly gunzTarPerm extractEntry src/sjisprober.js
+172 silly gunzTarPerm modified mode [ 'src/sjisprober.js', 493, 511 ]
+173 silly gunzTarPerm extractEntry src/chardistribution.js
+174 silly gunzTarPerm modified mode [ 'src/chardistribution.js', 493, 511 ]
+175 silly gunzTarPerm extractEntry src/universaldetector.js
+176 silly gunzTarPerm modified mode [ 'src/universaldetector.js', 493, 511 ]
+177 silly gunzTarPerm extractEntry src/big5prober.js
+178 silly gunzTarPerm modified mode [ 'src/big5prober.js', 493, 511 ]
+179 silly gunzTarPerm extractEntry src/utf8prober.js
+180 silly gunzTarPerm modified mode [ 'src/utf8prober.js', 493, 511 ]
+181 silly gunzTarPerm extractEntry src/init.js
+182 silly gunzTarPerm modified mode [ 'src/init.js', 493, 511 ]
+183 silly gunzTarPerm extractEntry tests/jschardet.js
+184 silly gunzTarPerm modified mode [ 'tests/jschardet.js', 493, 511 ]
+185 silly gunzTarPerm extractEntry tests/index.html
+186 silly gunzTarPerm modified mode [ 'tests/index.html', 493, 511 ]
+187 silly gunzTarPerm extractEntry tests/qunit/qunit.js
+188 silly gunzTarPerm modified mode [ 'tests/qunit/qunit.js', 493, 511 ]
+189 silly gunzTarPerm extractEntry tests/qunit/qunit.css
+190 silly gunzTarPerm modified mode [ 'tests/qunit/qunit.css', 493, 511 ]
+191 silly gentlyRm C:\hubot\mjbot\node_modules\.staging\jschardet-0a4975e4\node_modules is being purged
+192 verbose gentlyRm don't care about contents; nuking C:\hubot\mjbot\node_modules\.staging\jschardet-0a4975e4\node_modules
+193 silly doParallel preinstall 1
+194 silly preinstall jschardet@1.4.2 C:\hubot\mjbot\node_modules\.staging\jschardet-0a4975e4
+195 info lifecycle jschardet@1.4.2~preinstall: jschardet@1.4.2
+196 silly lifecycle jschardet@1.4.2~preinstall: no script for preinstall, continuing
+197 silly doReverseSerial remove 1
+198 silly remove C:\hubot\mjbot\node_modules\jschardet
+199 verbose unbuild node_modules\jschardet
+200 info lifecycle jschardet@1.4.2~preuninstall: jschardet@1.4.2
+201 silly lifecycle jschardet@1.4.2~preuninstall: no script for preuninstall, continuing
+202 info lifecycle jschardet@1.4.2~uninstall: jschardet@1.4.2
+203 silly lifecycle jschardet@1.4.2~uninstall: no script for uninstall, continuing
+204 verbose unbuild rmStuff jschardet@1.4.2 from C:\hubot\mjbot\node_modules
+205 info lifecycle jschardet@1.4.2~postuninstall: jschardet@1.4.2
+206 silly lifecycle jschardet@1.4.2~postuninstall: no script for postuninstall, continuing
+207 silly gentlyRm C:\hubot\mjbot\node_modules\jschardet is being purged from base C:\hubot\mjbot
+208 verbose gentlyRm don't care about contents; nuking C:\hubot\mjbot\node_modules\jschardet
+209 silly vacuum-fs purging C:\hubot\mjbot\node_modules\jschardet
+210 verbose unlock done using C:\Users\emisa.osada\AppData\Roaming\npm-cache\_locks\staging-fc64a7a377bb2144.lock for C:\hubot\mjbot\node_modules\.staging
+211 silly rollbackFailedOptional Starting
+212 silly rollbackFailedOptional Finishing
+213 silly runTopLevelLifecycles Finishing
+214 silly install printInstalled
+215 verbose stack Error: EBUSY: resource busy or locked, rmdir 'C:\hubot\mjbot\node_modules\jschardet'
+215 verbose stack     at Error (native)
+216 verbose cwd C:\hubot\mjbot
+217 error Windows_NT 6.1.7601
+218 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "jschardet"
+219 error node v6.10.3
+220 error npm  v3.10.10
+221 error path C:\hubot\mjbot\node_modules\jschardet
+222 error code EBUSY
+223 error errno -4082
+224 error syscall rmdir
+225 error EBUSY: resource busy or locked, rmdir 'C:\hubot\mjbot\node_modules\jschardet'
+226 error If you need help, you may report this error at:
+226 error     <https://github.com/npm/npm/issues>
+227 verbose exit [ -4082, true ]

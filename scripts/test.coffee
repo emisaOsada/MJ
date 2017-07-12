@@ -18,5 +18,5 @@
 
 module.exports = (robot) ->
 
-  robot.respond /haha/i, (msg) ->
-    msg.send "Hahahaha!"
+  robot.respond /Ç®ÇÕÇÊÇ§/i, (msg) ->
+    msg.send "Ç®ÇÕÇÊÇ§Ç≤Ç¥Ç¢Ç‹Ç∑ÅI"
