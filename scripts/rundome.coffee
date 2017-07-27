@@ -1,5 +1,5 @@
 # Description:
-#   MJ‚ªƒ‰ƒ“ƒ_ƒ€‚É“š‚¦‚é
+#   MJãŒãƒ©ãƒ³ãƒ€ãƒ ã«ç­”ãˆã‚‹
 #
 # Dependencies:
 #   None
@@ -8,26 +8,26 @@
 #   None
 #
 # Commands:
-#   hubot Œ³‹CH - ƒ‰ƒ“ƒ_ƒ€‚É•Ô“š
+#   hubot å…ƒæ°—ï¼Ÿ - ãƒ©ãƒ³ãƒ€ãƒ ã«è¿”ç­”
 #
 # Notes:
-#   ‚R‚Â–Ú‚Éì‚è‚Ü‚µ‚½B
+#   ï¼“ã¤ç›®ã«ä½œã‚Šã¾ã—ãŸã€‚
 #
 # Author:
 #   emisa.osada
 
 module.exports = (robot) ->
 
-  robot.respond /(Œ³‹C(|‚°‚ñ‚«)H | How are u?)/i, (msg) ->
+  robot.respond /(å…ƒæ°—(|ã’ã‚“ã)ï¼Ÿ | How are u?)/i, (msg) ->
     howareyou = msg.random [
       "I'm great!!"
-      "‚Â‚©‚ê‚½"
+      "ã¤ã‹ã‚ŒãŸ"
       "Wanna dance with me?"
-      "ƒr[ƒ‹ˆù‚İ‚½‚¢"
+      "ãƒ“ãƒ¼ãƒ«é£²ã¿ãŸã„"
       "I'm fine. And you?" 
       "Good night." 
-      "‚Ü‚Ÿ‚Ü‚Ÿ‚©‚È"
-      "‚¨‚Í‚æ‚¤IŒ³‹C‚¾‚æI"
+      "ã¾ãã¾ãã‹ãª"
+      "ãŠã¯ã‚ˆã†ï¼å…ƒæ°—ã ã‚ˆï¼"
       "Yo-yo-yo!"
     ]
     msg.reply "#{howareyou}"
