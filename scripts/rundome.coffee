@@ -28,6 +28,6 @@ module.exports = (robot) ->
       "Good night." 
       "‚Ü‚Ÿ‚Ü‚Ÿ‚©‚È"
       "‚¨‚Í‚æ‚¤IŒ³‹C‚¾‚æI"
-      "Yo-yo-yo! Today is gonna be good as hell!"
+      "Yo-yo-yo!"
     ]
     msg.reply "#{howareyou}"
