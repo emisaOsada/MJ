@@ -1,5 +1,5 @@
 # Description:
-#   MJ‚ª“š‚¦‚é
+#   MJï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #
 # Dependencies:
 #   None
@@ -8,10 +8,10 @@
 #   None
 #
 # Commands:
-#   hubot Good morning! - "It's a wonderful day man!"‚Æ•Ô“š
+#   hubot Good morning! - "It's a wonderful day man!"ï¿½Æ•Ô“ï¿½
 #
 # Notes:
-#   2‰ñ–Ú‚Éì‚è‚Ü‚µ‚½B
+#   2ï¿½ï¿½Ú‚Éï¿½ï¿½Ü‚ï¿½ï¿½ï¿½ï¿½B
 #
 # Author:
 #   emisa.osada
